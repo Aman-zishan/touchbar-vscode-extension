@@ -1,11 +1,14 @@
 {
-  "name": "vscode-touchbar",
-  "displayName": "vscode-touchbar",
+  "name": "sts-touchbar",
+  "displayName": "STS touchbar extension",
+  "publisher": "AmanZishan",
   "description": "A simple touchbar extension for vscode. Allows you to start your dev server and run your tests from the touchbar.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.78.0"
   },
+  "repository": "",
+  "icon": "logo.png",
   "categories": [
     "Other"
   ],
@@ -17,7 +20,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "vscode-touchbar.startVscodeTouchbar",
+        "command": "sts-touchbar.startVscodeTouchbar",
         "title": "Start Vscode Touchbar"
       },
       {
